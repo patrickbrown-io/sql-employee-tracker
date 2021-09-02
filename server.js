@@ -1,10 +1,17 @@
 //  Dependencies
 const mysql = require('mysql2');
-const inquirer = require('inquirer');
+const prompt = require('inquirer');
+const db = require ("./db");
 require('console.table')
 
 //  Initial prompt
+init();
 
+function init() {
+    const myLogo = logo({name: "Employee Manager"}).render();
+    console.log(myLogo);
+    loadPrompts()
+}
     // inquirer
         //  View All Departments
         //  View All Roles
