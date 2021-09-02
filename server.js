@@ -80,7 +80,7 @@ async function loadPrompts() {
 }
 ]);
     //  Switch Statement for user choice
-    //CREATE FUNCTIONS FROM THIS!!
+
 switch(choice) {
     //  View employees
     case "VIEW_EMPLOYEES":
