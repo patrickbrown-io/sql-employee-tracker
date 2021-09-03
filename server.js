@@ -152,7 +152,7 @@ async function viewEmployeesByDepartment() {
         }
     ]);
 
-    const employees = await db.findEmployeesByDepartment(departmentId);
+    const employees = await db.findAllEmployeesByDepartment(departmentId);
 
     console.log("\n");
     console.table(employees);
