@@ -219,7 +219,7 @@ const functions = {
         this.connect.query(
             `
             DELETE
-            FROM eployee
+            FROM employee
             WHERE role_id = ?
             `,roleId
         )

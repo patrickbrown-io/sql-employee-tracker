@@ -122,7 +122,7 @@ switch(choice) {
         case "REMOVE_ROLE":
             return removeRole();
         default:
-            return addRole();
+            return quit();
     }
 }
 
