@@ -33,7 +33,7 @@ Video walkthrough of working application: [YouTube](https://www.youtube.com/watc
 - Create, Delete, and View all departments with nicely formatted tables via mySQL2.
 - Create, Delete, and View all roles, with job title, role id, department, and salary
 - Create, Delete, and View all Employees with a nicely formatted table. See their names, job titles, departments, salaries, and manager
-- mySQL2, ASCII-art Logo, Node, Express, Inquirer
+- mySQL2, ASCII-art Logo, Node, Express, Inquirer, console.table
 
 ## How to Contribute
 
